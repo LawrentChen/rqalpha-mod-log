@@ -36,7 +36,7 @@ class LogHandler(Handler, StringFormatterHandlerMixin):
 
 class CustomLogHandlerMod(AbstractMod):
     def _send_log(self, dt, text, log_tag, mod_config):
-        with open(f'{mod_config.log_path}', mode=mod_config.log_mode) as f:
+        with open(f'{mod_config.log_file}', mode=mod_config.log_mode) as f:
             f.write(f'[{dt}] {log_tag}: {text}\n')
 
     def start_up(self, env, mod_config):

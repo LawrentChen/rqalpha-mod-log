@@ -1,0 +1,8 @@
+[build-system]
+requires = [
+    "setuptools>=42",
+    "wheel",
+    "rqalpha>=4.5.1",
+    "logbook>=1.5.3"
+]
+build-backend = "setuptools.build_meta"

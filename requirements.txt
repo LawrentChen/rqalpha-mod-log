@@ -1,2 +1,0 @@
-rqalpha>=4.5.1
-logbook>=1.5.3

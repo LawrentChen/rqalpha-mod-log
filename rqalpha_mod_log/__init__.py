@@ -1,9 +1,6 @@
 # !/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-# FIXME:应该使用这里的__config__，原文档https://rqalpha.readthedocs.io/zh_CN/latest/development/collecting_logs.html已过时
-# FIXME:参考mod拓展命令行参数 https://rqalpha.readthedocs.io/zh_CN/latest/intro/run_algorithm.html?highlight=click#id6
-
 import click
 from rqalpha import cli
 

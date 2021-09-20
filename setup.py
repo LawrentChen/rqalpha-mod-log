@@ -1,7 +1,7 @@
 # !/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-# FIXME:与文档不同
+
 try:
     # pip >=20
     from pip._internal.network.session import PipSession
@@ -30,8 +30,8 @@ setup(
     author_email='laurant.chen@gmail.com',
     license='Apache License v2',
     package_data={'': ['*.*']},
-    url='https://github.com/lawrentchen/rqalpha-mod-log',  # 待改
-    # install_requires=[str(ir.requirement) for ir in parse_requirements("requirements.txt", session=PipSession())], # 注：FIXME:原文档此处 req 也根据pip版本不同而不同，而且按照现在requirements.txt
+    url='https://github.com/lawrentchen/rqalpha-mod-log',
+    install_requires=[str(ir.requirement) for ir in parse_requirements("requirements.txt", session=PipSession())],
     zip_safe=False,
     classifiers=[
         'Programming Language :: Python',

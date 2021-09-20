@@ -19,7 +19,7 @@ Configs of log Mod are as followed.
 ```python
 {
     # Specify the log output file
-    "log_path": "./output/reposition_log.txt",
+    "log_path": "./log.txt",
     # Python open() method to read/write file
     "log_mode": "a",
 }

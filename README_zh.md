@@ -19,7 +19,7 @@ $ rqalpha mod enable log
 ```python
 {
     # 指定日志输出文件
-    "log_path": "./output/reposition_log.txt",
+    "log_path": "./log.txt",
     # python open() 方法读写文件的模式
     "log_mode": "a",
 }
